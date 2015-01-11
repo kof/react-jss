@@ -1,0 +1,31 @@
+{
+  "name": "react-jss",
+  "version": "0.1.0",
+  "description": "JSS mixin for React components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsstyles/react-jss.git"
+  },
+  "keywords": [
+    "react",
+    "style",
+    "css",
+    "stylesheet",
+    "jss",
+    "mixin"
+  ],
+  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsstyles/react-jss/issues"
+  },
+  "homepage": "https://github.com/jsstyles/react-jss",
+  "peerDependencies": {
+    "jss": "0.x",
+    "react": ">=0.12"
+  }
+}
