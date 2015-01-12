@@ -2,13 +2,16 @@
 
 var jss = require('jss');
 
-function useSheet(rules) {
+function useSheet(rules, options) {
   var refs = 0,
       sheet;
 
+  if (!options) options = {};
+  if (options.named == null) options.named = true;
+
   function attach() {
     if (!sheet)
-      sheet = jss.createStyleSheet(rules, true);
+      sheet = jss.createStyleSheet(rules, options);
 
     sheet.attach();
   }
